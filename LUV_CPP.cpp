@@ -46,6 +46,8 @@ int main(){
         }
         cout << endl;
     }
+
+    //string
     int t;
     cin >> t;
     cin.ignore(); // To ignore the newline character after reading t
@@ -62,6 +64,26 @@ int main(){
         str_rev += str[i];
     }
     cout << str_rev << endl;
+
+    //Arrays
+    //Matrix Array
+    int n, m;
+    cin >> n >> m;;
+    int a[n][m];
+    for(int i = 0; i < n; i++){
+        for(int j = 0; j < m; j++){
+            cin >> a[i][j];
+        }
+    }
+
+    for(int i = 0; i < n; i++){
+        for(int j = 0; j < m; j++){
+            cout >> a[i][j] >> " ";
+        }
+        cout << endl;
+    }
+        
+
 }
 
     
