@@ -98,6 +98,14 @@ int main(){
     git branch [to check current branch]
     git branch -M main [to rename current branch to main]
     git push -u origin main [to use shortcut]
+    git checkout <branch_name> [to switch branches]
+    git checkout -b <new_branch_name> [to create and switch to a new branch]
+    git branch -d <branch_name> [to delete a branch]
+    git pull origin main [to pull latest changes from remote]
+    git diff [to see changes made]
+    git merge <branch_name> [to merge a branch into current branch]
+    git reset --hard HEAD~1 [to undo last commit]
+    git rest <file_name> [to unstage a file]
     
     */
         
