@@ -82,6 +82,17 @@ int main(){
         }
         cout << endl;
     }
+
+    /*Github Commands
+    git config --global user.name "Your Name"
+    git config --global user.email "youremail@example.com"
+    git config --list
+    git clone <repository_url>
+    git status
+    git add <file_name>
+    git commit -m "Your commit message"
+    git push origin main
+    */
         
 
 }
