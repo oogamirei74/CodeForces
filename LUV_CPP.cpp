@@ -92,6 +92,13 @@ int main(){
     git add <file_name>
     git commit -m "Your commit message"
     git push origin main
+    git init [to initialize a new repository]
+    git remot add origin <repository_url> [to link local repo to remote repo]
+    git remote -v [to verify the link]
+    git branch [to check current branch]
+    git branch -M main [to rename current branch to main]
+    git push -u origin main [to use shortcut]
+    
     */
         
 
